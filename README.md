@@ -6,7 +6,8 @@ This Python script performs customer segmentation analysis using the K-means clu
 
 The script begins by importing necessary libraries such as NumPy, pandas, seaborn, and matplotlib. It then loads the dataset "Mall_Customers.csv" using pandas and performs exploratory data analysis to understand the distribution of gender, annual income, and age.
 
-Next, it selects the "Annual Income" and "Spending Score" columns as features for clustering. The Within-Cluster-Sum-of-Squares (WCSS) method is used to determine the optimal number of clusters, and an elbow plot is generated to visualize the results.
+Next, it selects the "Annual Income" and "Spending Score" columns as features for clustering. The Within-Cluster-Sum-of-Squares (WCSS) method is used to determine the optimal number of clusters, and an elbow plot is generated to visualize the results.. 
+
 
 The K-means clustering algorithm is applied with the optimal number of clusters, and cluster labels are assigned to each data point. The clusters are plotted on a scatter plot, with different colors representing each cluster and centroids marked.
 
