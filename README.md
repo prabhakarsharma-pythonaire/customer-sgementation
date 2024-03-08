@@ -1,5 +1,5 @@
 # customer-sgementation
-This script conducts customer segmentation using K-means clustering on mall customer data, identifying clusters based on annual income and spending score. It utilizes k-means++ initialization for optimal convergence. Clusters are visualized and evaluated using the silhouette score.
+This code conducts customer segmentation using K-means clustering on mall customer data, identifying clusters based on annual income and spending score. It utilizes k-means++ initialization for optimal convergence. Clusters are visualized and evaluated using the silhouette score.
 
 Desciption-
 This Python script performs customer segmentation analysis using the K-means clustering algorithm. The dataset used contains information about mall customers, including their annual income and spending score. The goal is to segment customers into distinct groups based on their purchasing behavior.
